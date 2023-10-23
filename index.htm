@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+
+<script>
+   document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'S'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+    }
+
+    document.oncontextmenu = function(e) {
+        var t = e || window.event;
+        var n = t.target || t.srcElement;
+        if (n.nodeName != "A") return false;
+    }
+    
+    var devtools = function() {};
+    devtools.isOpen = false;
+    devtools.orientation = undefined;
+
+    var threshold = 160;
+    var checkStatus = function() {
+        var widthThreshold = window.outerWidth - window.innerWidth > threshold;
+        var heightThreshold = window.outerHeight - window.innerHeight > threshold;
+        var orientation = widthThreshold ? 'vertical' : 'horizontal';
+
+        if (!(heightThreshold && widthThreshold) && ((window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized) || widthThreshold || heightThreshold)) {
+            if (!devtools.isOpen || devtools.orientation !== orientation) {
+                devtools.isOpen = true;
+                devtools.orientation = orientation;
+                window.location.href = "https://www.youtube.com/watch?v=71AS7pyVfWs";
+            }
+        } else {
+            if (devtools.isOpen) {
+                devtools.isOpen = false;
+                devtools.orientation = undefined;
+            }
+        }
+    };
+
+    setInterval(checkStatus, 1000);
+</script>
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kisele4ekYT | Bio</title>
+  <meta property="og:title" content="Links">
+  <meta property="og:site_name" content="kiselnynodes.xyz">
+  <meta property="og:description" content="Links">
+  <link rel="icon" href="images/sosna-circle.png" type="image/png" sizes="16x16">
+  <link rel="stylesheet" href="css/style.css" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+</head>
+
+<body>
+  <div class="mac-menubar">
+    <div class="mac-menubar-ico">
+      <img src="images/avatarka_krug.png" draggable="false" alt="icon" width="25px" height="25px">
+    </div>
+    <div class="mac-menubar-title">Pages</div>
+    <div class="mac-menubar-divider"></div>
+    <div class="mac-menubar-apps-container">
+
+      <div class="mac-menubar-app-container lol-window-toggle" id="lol-container-fix">
+        <div class="mac-menubar-app-ico">
+          <img src="images/discord.svg" id="mac-menubar-app-ico" draggable="false" alt="Discord" width="24" height="24">
+        </div>
+        <div class="mac-menubar-app-title" id="lol-title-fix">Discord</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div><svg height="100%" width="100%">
+      <defs>
+        <pattern id="doodad" width="100px" height="100px" viewbox="0 0 40 40" patternunits="userSpaceOnUse" patterntransform="rotate(125)">
+          <rect width="100%" height="100%" fill="rgba(114, 167, 68,0)"></rect>
+          <path d="M0 0h40v40h-40z" fill="rgba(74, 85, 104,1)" filter="url(#filter-doodad-1)"></path>
+          <path d="M-40 0h1l12 20l-12 20h-1l12-20zM-38 0h1l12 20l-12 20h-1l12-20zM-36 0h1l12 20l-12 20h-1l12-20zM-34 0h1l12 20l-12 20h-1l12-20zM-32 0h1l12 20l-12 20h-1l12-20zM-30 0h1l12 20l-12 20h-1l12-20zM-28 0h1l12 20l-12 20h-1l12-20zM-26 0h1l12 20l-12 20h-1l12-20zM-24 0h1l12 20l-12 20h-1l12-20zM-22 0h1l12 20l-12 20h-1l12-20zM-20 0h1l12 20l-12 20h-1l12-20zM-18 0h1l12 20l-12 20h-1l12-20zM-16 0h1l12 20l-12 20h-1l12-20zM-14 0h1l12 20l-12 20h-1l12-20zM-12 0h1l12 20l-12 20h-1l12-20zM-10 0h1l12 20l-12 20h-1l12-20zM-8 0h1l12 20l-12 20h-1l12-20zM-6 0h1l12 20l-12 20h-1l12-20zM-4 0h1l12 20l-12 20h-1l12-20zM-2 0h1l12 20l-12 20h-1l12-20zM0 0h1l12 20l-12 20h-1l12-20zM2 0h1l12 20l-12 20h-1l12-20zM4 0h1l12 20l-12 20h-1l12-20zM6 0h1l12 20l-12 20h-1l12-20zM8 0h1l12 20l-12 20h-1l12-20zM10 0h1l12 20l-12 20h-1l12-20zM12 0h1l12 20l-12 20h-1l12-20zM14 0h1l12 20l-12 20h-1l12-20zM16 0h1l12 20l-12 20h-1l12-20zM18 0h1l12 20l-12 20h-1l12-20zM20 0h1l12 20l-12 20h-1l12-20zM22 0h1l12 20l-12 20h-1l12-20zM24 0h1l12 20l-12 20h-1l12-20zM26 0h1l12 20l-12 20h-1l12-20zM28 0h1l12 20l-12 20h-1l12-20zM30 0h1l12 20l-12 20h-1l12-20zM32 0h1l12 20l-12 20h-1l12-20zM34 0h1l12 20l-12 20h-1l12-20zM36 0h1l12 20l-12 20h-1l12-20zM38 0h1l12 20l-12 20h-1l12-20z" fill="rgba(26, 32, 44,1)"></path>
+        </pattern>
+        <filter id="filter-doodad-1">
+          <feturbulence basefrequency="0.1" numoctaves="2" type="fractalNoise" result="result1"></feturbulence>
+          <fedisplacementmap in2="result1" scale="1" result="result2" xchannelselector="R" in="SourceGraphic"></fedisplacementmap>
+          <fecomposite in2="result2" in="SourceGraphic" operator="atop" result="fbSourceGraphic"></fecomposite>
+        </filter>
+      </defs>
+      <rect fill="url(#doodad)" height="200%" width="200%"></rect>
+    </svg>
+  </div>
+
+  <div class="windows">
+    <div class="lol">
+      <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">Discord Stats</div>
+          <div class="title-bar-buttons">
+            <div class="mac-red"></div>
+            <div class="mac-yellow"></div>
+            <div class="mac-green"></div>
+          </div>
+        </div>
+          <div class="player-info">
+            <a id="player-icon" href="https://discord.com/users/780729585032888321"target="_blank"><img src="images/discord-status.svg" width="410%"></a>
+            <div class="icon_and_level">
+             
+             
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+  
+  <div class="card glow">
+    <div class="mac-buttons-container">
+      <div class="mac-red"></div>
+      <div class="mac-yellow"></div>
+      <div class="mac-green"></div>
+    </div>
+    <div class="upper-container" draggable="false">
+      <div class="image-container" draggable="false">
+        <img id="image" src="images/avatarka.jpg" draggable="false" user-select="none">
+      </div>
+      <div class="wrapper">
+        <div class="typing-demo">
+          <div>Kisel4ik</div>
+        </div>
+      </div>
+    </div>
+    <div class="lower-container">
+      <a class="btn btn-1 animated fadeIn fadeInDown delay-1s" href="https://kiselnynodes.xyz" draggable="false" target="_blank">KiselnyNodes</a>
+      <a class="btn btn-2 animated fadeIn fadeInDown delay-1dot1s" href="https://youtube.com/@Kisele4ekST" draggable="false" target="_blank">YouTube</a>
+      <a class="btn btn-3 animated fadeIn fadeInDown delay-1dot2s" href="https://vk.com/kisele4ekst" draggable="false" target="_blank">VKontakte</a>
+      <a class="btn btn-4 animated fadeIn fadeInDown delay-1dot3s" href="https://funpay.com/users/8702275/" draggable="false" target="_blank">FunPay</a>
+      <a class="btn btn-5 animated fadeIn fadeInDown delay-1dot4s" href="https://dsc.gg/neverclient" draggable="false" target="_blank">NeverClient</a>
+      <a class="btn btn-6 animated fadeIn fadeInDown delay-1dot5s" href="https://dsc.gg/roniteamdsc" draggable="false" target="_blank">RoniTeam</a>
+    </div>
+    <b class="copyright animated fadeIn delay-2s" draggable="none">Copyright © 2023 Kisele4ekYT</b>
+  </div>
+  <script src="js/app.js"></script>
+  <script src="js/emailcopy.js"></script>
+</body>
+
+</html>
